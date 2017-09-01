@@ -1,0 +1,16 @@
+Descripción comandos
+      ls : enlista las carpestas y archivos en una dirección específica o
+      por default. así mismo tiene sus variables que te permiten ver no
+      solo archivos o carpetas, si no también documentos ocultos.
+ 
+          Ej.- ls -al
+
+     cp: sirve para copiar ficheros y/o archivos. tiene diferentes
+     variables mediante las cuales puedes copiar solo la extensión del
+     archivo, copiar sin reemplazar,etc.
+
+         Ej: cp notas.txt  -n Música
+
+
+
+

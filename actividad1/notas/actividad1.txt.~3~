@@ -1,0 +1,43 @@
+Descripción comandos
+      ls : enlista las carpestas y archivos en una dirección específica o
+      por default. así mismo tiene sus variables que te permiten ver no
+      solo archivos o carpetas, si no también documentos ocultos.
+ 
+          Ej.- ls -al
+
+     cp: sirve para copiar ficheros y/o archivos. tiene diferentes
+     variables mediante las cuales puedes copiar solo la extensión del
+     archivo, copiar sin reemplazar,etc.
+
+         Ej: cp notas.txt  -n Música
+
+
+     pwd: nos indica la ubicación/directorio  donde nos encotramos
+     actualmente.
+     ej.
+     user@bash: pwd
+     porgfortran/notas
+
+
+    cd: nos ayuda a cambiar de directorio, ya sea de forma específica
+    o no, podemos utilizar tildé,punto ó doble punto.
+    ej.
+    /progfortran/notas$
+    cd ..
+    /profortran
+
+
+    file: te indica que tipo de documento es.
+    ej.
+    /fortran/notas ls
+    notas.txt actividad1.txt
+    tipe actividad1.txt
+    utf-8 unicode text
+
+
+   
+    
+
+
+
+

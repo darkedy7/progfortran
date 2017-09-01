@@ -1,0 +1,144 @@
+\documentclass{article}
+
+% set font encoding for PDFLaTeX or XeLaTeX
+\usepackage{ifxetex}
+\ifxetex
+  \usepackage{fontspec}
+\else
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{lmodern}
+\fi
+
+% used in maketitle
+\title{Actividad 1}
+\author{Eduardo Hernández \\ Departamento de Física \\ Universidad de Sonora}
+\date { 31 de agosto de 2017}
+
+% Enable SageTeX to run SageMath code right inside this LaTeX file.
+% documentation: http://mirrors.ctan.org/macros/latex/contrib/sagetex/sagetexpackage.pdf
+% \usepackage{sagetex}
+
+\begin{document}
+\maketitle
+% son comentarios
+\section {Intruducción a curso de fortran}
+
+\subsection{Comandos de Bash}
+\subsubsection{descripción de comandos}
+
+%pegamos lo copiado que se realizó anteriormente en emacs
+\begin{verbatim}
+Descripción comandos
+      ls : enlista las carpestas y archivos en una dirección específica o
+      por default. así mismo tiene sus variables que te permiten ver no
+      solo archivos o carpetas, si no también documentos ocultos.
+ 
+          Ej.- ls -al
+
+     cp: sirve para copiar ficheros y/o archivos. tiene diferentes
+     variables mediante las cuales puedes copiar solo la extensión del
+     archivo, copiar sin reemplazar,etc.
+
+         Ej: cp notas.txt  -n Música
+
+
+     pwd: nos indica la ubicación/directorio  donde nos encotramos
+     actualmente.
+     ej.
+     user@bash: pwd
+     porgfortran/notas
+
+
+    cd: nos ayuda a cambiar de directorio, ya sea de forma específica
+    o no, podemos utilizar tildé,punto ó doble punto.
+    ej.
+    /progfortran/notas$
+    cd ..
+    /profortran
+
+
+    file: te indica que tipo de documento es.
+    ej.
+    /fortran/notas ls
+    notas.txt actividad1.txt
+    tipe actividad1.txt
+    utf-8 unicode text
+
+
+    Cat: concatena (copia e imprime lo deun documento o un texto en la
+    terminal)
+
+    ej.
+    /fortran/notas ls
+    notas.txt
+    cat notas.txt
+    Actividad uno
+    realizar una lista de comandos en emacs
+
+
+    Man: nos da una descripción específica de algún comando en
+    particular, así como sus variantes,descrición, modo de uso, etc.
+
+     Ej.
+       cp - copy files and directories
+
+      SYNOPSIS
+       cp [OPTION]... [-T] SOURCE DEST
+       cp [OPTION]... SOURCE... DIRECTORY
+       cp [OPTION]... -t DIRECTORY SOURCE...
+
+      DESCRIPTION
+       Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+
+       Mandatory arguments to long options are mandatory for short options too.
+
+       -a, --archive
+              same as -dR --preserve=all
+
+       --attributes-only
+              don't copy the file data, just the attributes
+
+
+    mkdir: crea un directorio y/o suple uno.
+
+       ej.-
+          /admin/edyhndz
+          mkdir Carros
+          /admin/edyhndz ls
+          carros notas.txt
+
+
+   rmdir: Elimina un directorio.
+
+
+     ej.-
+          /admin/edyhndz
+          /admin/edyhndz ls
+          carros notas.txt
+	  /admin/edyhndz rmdir carros
+	  notas.txt
+
+
+
+\end{verbatim}
+
+\subsubsection{Ecuación}
+
+%utilizar comando en par de ecuaciones
+
+\begin{equation}
+F=ma=m\frac{dv}{dt}
+\end{equation}
+
+\begin{equation}
+W=\int_{a}^{b}Fds
+\end{equation}
+
+
+\section{Uso de latex }
+
+El aprendizaje de la herramienta latex es muy práctico  ya que la redacción de papers científicos se facilita mediante de la introducción de equaciones, datos,etc.
+
+
+\end{document}
