@@ -1,0 +1,17 @@
+program x_max
+ implicit none
+ !declaramos constantes
+ real, parameter:: pi=3.1415927
+ real, parameter:: g=9.8
+ real, parameter:: u=45
+ !declaramos variables
+ real::vo,d
+ !utilizaremos el ángulo como 45°
+ u=u*pi/180
+ !la fórmula para calcular la distancia máxima es d=((vo*vo)/g)*sin2u
+ print*, dame el valor de la velocidad inicial
+ read*, vo
+ d=((vo*vo)/g)*sin(2u)
+ print*, la distancia es:
+ print*, d
+ endprogram
