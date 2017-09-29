@@ -1,0 +1,29 @@
+!desplazamiento en X & Y
+
+ implicit none
+ !Declaramos Constantes
+ Real Parameter:: Pi=3.1415927
+ Real parameter:: g=9.8
+ Integer parameter:: i
+ !declaramos Variables
+ Real::x
+ Real::y
+ Real::vo
+ Real::u
+ 
+
+	print*, "calcularemos las cordenas del tiro parabólico"
+	Print*, "dame el ángulo y la Vo"
+	read*, u, Vo
+
+	U=U*pi/180
+
+	Do i=1,20
+
+
+	x=Vo*i*(cos(u))
+	end if
+
+
+	print* "x=, "x""
+ 
