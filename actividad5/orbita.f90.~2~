@@ -1,0 +1,20 @@
+program orbita
+  implicit none
+  !declaramos Constantes en DP
+  double precision::r=149600000 , pi=3.141598 , T=365.256
+  
+
+  
+
+
+  
+!
+!! orbita.f90
+!! 
+!! Made by (David Eduardo Hernandez Sanchez)
+!! Login   <edyhndz7@ltsp163.example.com>
+!! 
+!! Started on  Fri Nov 10 11:24:34 2017 David Eduardo Hernandez Sanchez
+!! Last update Time-stamp: <2010-oct-11.lunes 17:26:15 (calcaneo)>
+!
+

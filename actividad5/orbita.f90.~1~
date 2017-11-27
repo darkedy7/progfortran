@@ -1,0 +1,26 @@
+
+program demo
+real x
+double precision y, z
+x = 1.1
+y = 1.1
+z = 1.1D0
+print *, "x =", x, " , y =", y, " , z =", z
+end
+
+
+
+  
+
+
+  
+!
+!! orbita.f90
+!! 
+!! Made by (David Eduardo Hernandez Sanchez)
+!! Login   <edyhndz7@ltsp163.example.com>
+!! 
+!! Started on  Fri Nov 10 11:24:34 2017 David Eduardo Hernandez Sanchez
+!! Last update Time-stamp: <2010-oct-11.lunes 17:26:15 (calcaneo)>
+!
+
