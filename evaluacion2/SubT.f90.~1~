@@ -1,0 +1,31 @@
+    !iniciamos subrutina
+   subroutine expT10(n,x)
+     double precision, intent(in)::x
+     integer,intent(in)::n
+     double precision, intent(out):: expT10
+     double precision:: term, partial_sum
+     doible precision, parameter:: x(0,10)
+     integer::j
+     integer,parameter:: ntimes=100
+
+     term=1
+     partial_sum=term
+
+     do j=1,ntimes
+        term=term*(x/j)
+        partial_sum=partial_sum+term
+        end do
+
+
+
+
+  
+!! SubT.f90
+!! 
+!! Made by (David Eduardo Hernandez Sanchez)
+!! Login   <edyhndz7@ltsp153.example.com>
+!! 
+!! Started on  Fri Dec  1 10:19:49 2017 David Eduardo Hernandez Sanchez
+!! Last update Time-stamp: <2010-oct-11.lunes 17:26:15 (calcaneo)>
+!
+
