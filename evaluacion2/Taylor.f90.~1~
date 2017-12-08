@@ -1,0 +1,39 @@
+
+subroutine Ap(x,n,y)
+  implicit none
+  integer(kind=8) ,dimension(100),  intent (in)::n
+  real (kind=8),dimension(100), intent (in) ::x
+  real (kind=8),dimension(100),  intent (out)::y
+  !variables locales
+  real(kind=8)::term, partial_sum
+  integer::i
+ term=1
+ partial_sum::term
+ 
+ do i=1,n,2
+    !calcular el factorial
+    term=term*x/i
+    !agrega este término a la suma parcial
+    partial_sum=partial_term + term
+    end do
+    y(i)=partial_sum    
+    
+     
+     
+program Taylor
+  implicit none
+
+end program Taylor
+  
+
+
+  !
+!! Taylor.f90
+!! 
+!! Made by (David Eduardo Hernandez Sanchez)
+!! Login   <edyhndz7@ltsp161.example.com>
+!! 
+!! Started on  Thu Dec  7 16:24:59 2017 David Eduardo Hernandez Sanchez
+!! Last update Time-stamp: <2010-oct-11.lunes 17:26:15 (calcaneo)>
+!
+
